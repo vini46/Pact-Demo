@@ -1,5 +1,6 @@
 # pact-demo
 Pact Demo
+Introduction to Contract Testing and Pact can be found in the ppt [here](https://github.com/vini46/Pact-Demo/blob/master/presentation/Contract-Testing-In-Theory-and-Practice.pptx)
 
 * Consumer
   * Import the consumer project to a Editor
