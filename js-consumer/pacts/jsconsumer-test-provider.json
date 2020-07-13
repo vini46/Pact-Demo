@@ -1,0 +1,31 @@
+{
+  "consumer": {
+    "name": "JSConsumer"
+  },
+  "provider": {
+    "name": "test-provider"
+  },
+  "interactions": [
+    {
+      "description": "making a request from JS consumer",
+      "request": {
+        "method": "GET",
+        "path": "/"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "Vinod"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

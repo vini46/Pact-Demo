@@ -1,0 +1,43 @@
+I, [2020-07-13T10:21:48.698865 #17504]  INFO -- : Registered expected interaction GET /
+D, [2020-07-13T10:21:48.699199 #17504] DEBUG -- : {
+  "description": "making a request from JS consumer",
+  "request": {
+    "method": "GET",
+    "path": "/"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Vinod"
+    }
+  }
+}
+I, [2020-07-13T10:21:48.715727 #17504]  INFO -- : Received request GET /
+D, [2020-07-13T10:21:48.715972 #17504] DEBUG -- : {
+  "path": "/",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.18.0",
+    "Host": "localhost:33098",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-07-13T10:21:48.716295 #17504]  INFO -- : Found matching response for GET /
+D, [2020-07-13T10:21:48.716501 #17504] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "name": "Vinod"
+  }
+}
+I, [2020-07-13T10:21:48.725260 #17504]  INFO -- : Verifying - interactions matched
+I, [2020-07-13T10:21:48.731131 #17504]  INFO -- : Cleared interactions
+I, [2020-07-13T10:21:48.741580 #17504]  INFO -- : Writing pact for test-provider to /Users/vinodbaradwaj/Personal/pact/pact-demo/jsConsumer/pacts/jsconsumer-test-provider.json
